@@ -9,6 +9,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'bling/vim-bufferline'
+
 " All plugins must be added before the following line
 call vundle#end()         " required
 filetype plugin indent on " required
