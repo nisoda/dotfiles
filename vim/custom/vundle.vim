@@ -1,3 +1,6 @@
+" Vundle plugin manager
+
+
 set nocompatible          " Be iMproved, required
 filetype off              " required
 
@@ -10,8 +13,9 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'tomtom/tcomment_vim'
 Plugin 'bling/vim-bufferline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tomtom/tcomment_vim'
 
 " All plugins must be added before the following line
 call vundle#end()         " required
