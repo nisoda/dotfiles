@@ -19,3 +19,7 @@ nnoremap <silent> L :bn<CR>
 " Global search and replace
 nnoremap S :%s//g<LEFT><LEFT>
 vnoremap S :s//g<LEFT><LEFT>
+
+" gk and gj move into wrapped lines
+nnoremap k gk
+nnoremap j gj
