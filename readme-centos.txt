@@ -15,6 +15,13 @@ Dotfiles for the following configurations:
 
 Steps for configs setup in CentOS:
 --------------------
+|  Bashrc          |
+--------------------
+1) Run command   echo "source ~/dotfiles/bashrc" >> .bashrc
+2) Close and reopen terminal
+3) Run command   echo $TERM   to verify that TERM has been set to 256color
+
+--------------------
 |  Gnome Terminal  |
 --------------------
 1) In dotfiles/colors clone the following repository
@@ -31,11 +38,7 @@ Steps for configs setup in CentOS:
 1) Remove the newly created .dir_colors directory in ~/
 2) Symbolic link the following folder
     - dotfiles/colors/gnome-terminal-colors-solarized   -> ~/.dir_colors
-3) Add the following to ~/.bashrc
-      if [ -f ~/.dir_colors/dircolors ]
-          then eval `dircolors ~/.dir_colors/dircolors`
-      fi
-4) Run command "ls -a" to verify dircolor changes
+3) Run command   ls -a   to verify dircolor changes
 
 
 -------------------
@@ -54,7 +57,7 @@ Steps for configs setup in CentOS:
     - dotfiles/vimrc  -> ~/.vimrc
 2) In dotfiles/vim/bundle clone the following repository
     - https://github.com/VundleVim/Vundle.vim.git 
-3) Open vim, run command :PluginInstall
+3) Open vim, run command   :PluginInstall
 4) Close and reopen Vim to verify changes
 
 
