@@ -19,3 +19,7 @@ set t_Co=256
 syntax enable
 set background=dark
 colorscheme solarized
+
+
+" Force filetype recognition
+au BufNewFile,BufRead *.adoc set filetype=asciidoc
