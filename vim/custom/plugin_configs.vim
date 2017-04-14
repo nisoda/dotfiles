@@ -33,3 +33,10 @@ map <leader>q :execute 'NERDTreeToggle'<CR>
 " tomtom/tcomment_vim                  -
 "---------------------------------------
 
+
+"---------------------------------------
+" vim-scripts/camelcasemotion          -
+"---------------------------------------
+nmap <silent> w <Plug>CamelCaseMotion_w
+nmap <silent> b <Plug>CamelCaseMotion_b
+nmap <silent> e <Plug>CamelCaseMotion_e

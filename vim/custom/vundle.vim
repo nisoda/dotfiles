@@ -16,6 +16,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-bufferline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'vim-scripts/camelcasemotion'
 
 " All plugins must be added before the following line
 call vundle#end()         " required
