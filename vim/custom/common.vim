@@ -16,3 +16,6 @@ set smartcase!
 
 set splitbelow
 set splitright
+
+" set hidden allows you to change buffers even if there are unsaved changes
+set hidden
