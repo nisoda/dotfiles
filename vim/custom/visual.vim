@@ -1,6 +1,6 @@
 " Visual/UI configurations
 
-
+set colorcolumn=100
 set showcmd
 set expandtab
 set shiftwidth=2
